@@ -22,11 +22,15 @@ $ npm install
 And finally we'll want to start up a webpack development server:
 
 ```
-$ npm run start
+$ npm start
 ```
 
 After this you can visit http://localhost:8080 and you should see an interactive
 markdown renderer!
+
+> **Note**: At the time of this writing only Chrome has support for multi-value,
+> and it has to be enabled by activating the "Experimental WebAssembly" setting
+> under `chrome://flags`
 
 ## How does it work?
 
